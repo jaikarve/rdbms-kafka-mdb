@@ -72,5 +72,9 @@ __1. Configure Laptop__
 }'```
 
 
+# Delete Kafka Topic
+  `./kafka-topics --topic orcl-GET_MONGODB_DOC --delete --zookeeper zookeeper:2181`
+
+
 
 
