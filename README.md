@@ -74,6 +74,11 @@ __1. Configure Laptop__
 
 # Delete Kafka Topic
   `./kafka-topics --topic orcl-GET_MONGODB_DOC --delete --zookeeper zookeeper:2181`
+  
+# Retrieving data from kafka topic
+
+  `docker exec -it <name_of_broker_instance> /bin/bash`
+  `./kafka-console-consumer.sh --topic test1-GET_MONGODB_DOC --bootstrap-server expandjsonsmt_kafka_1:9092 --from-beginning`
 
 
 
